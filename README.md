@@ -15,7 +15,7 @@
 - Reduce unused JavaScript Potential savings of 53 KiB
 - Efficiently encode images Potential savings of 84 KiB
 - Avoid enormous network payloads Total size was 3,935 KiB
-
+---
 - Compressed mp4 video by 51%
 - Added "preload" to Google Fonts
 - Installed Vite
