@@ -19,6 +19,6 @@
 - Compressed mp4 video by 51%
 - Added "preload" to Google Fonts
 - Installed Vite
-- Added lazy loading to non-carousel images
+- Added lazy loading to non-slide images
 - Added decoding async to all images
 - Reduced the size of the first slide's image
