@@ -20,3 +20,4 @@ DIAGNOSTICS
 -installed vite
 -added lazy Loading to non carousel images
 -added decoding async to all images
+-reduced the size of the first slides image
