@@ -12,14 +12,15 @@
         <!-- CSS FILES -->
         <link href="https://fonts.googleapis.com">
 
-        <link href="https://fonts.gstatic.com" crossorigin>
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 
-        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700&display=swap" rel="stylesheet">
-        <link href="css/bootstrap.min.css" rel="stylesheet">
+        <link rel="preload" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700&display=swap" as="style">
+        <link href="./css/bootstrap.min.css" rel="stylesheet">
 
-        <link href="css/bootstrap-icons.css" rel="stylesheet">
+        <link href="./css/bootstrap-icons.css" rel="stylesheet">
 
-        <link href="css/tooplate-crispy-kitchen.css" rel="stylesheet">
+        <link href="./css/tooplate-crispy-kitchen.css" rel="stylesheet">
+        <link rel="preload" as="image" href="./images/slide/jay-wennington-N_Y88TWmGwA-unsplash.jpg">
 
 <!--
 
@@ -111,7 +112,7 @@ https://www.tooplate.com/view/2129-crispy-kitchen
                                 <div class="carousel-inner">
                                     <div class="carousel-item active">
                                         <div class="carousel-image-wrap">
-                                            <img src="images/slide/jay-wennington-N_Y88TWmGwA-unsplash.jpg" class="img-fluid carousel-image" alt="">
+                                            <img decoding="async" src="images/slide/jay-wennington-N_Y88TWmGwA-unsplash.jpg" class="img-fluid carousel-image" alt="">
                                         </div>
 
                                         <div class="carousel-caption">
@@ -126,7 +127,7 @@ https://www.tooplate.com/view/2129-crispy-kitchen
 
                                     <div class="carousel-item">
                                         <div class="carousel-image-wrap">
-                                            <img src="images/slide/jason-leung-O67LZfeyYBk-unsplash.jpg" class="img-fluid carousel-image" alt="">
+                                            <img decoding="async" src="images/slide/jason-leung-O67LZfeyYBk-unsplash.jpg" class="img-fluid carousel-image" alt="">
                                         </div>
 
                                         <div class="carousel-caption">
@@ -152,7 +153,7 @@ https://www.tooplate.com/view/2129-crispy-kitchen
 
                                     <div class="carousel-item">
                                         <div class="carousel-image-wrap">
-                                            <img src="images/slide/ivan-torres-MQUqbmszGGM-unsplash.jpg" class="img-fluid carousel-image" alt="">
+                                            <img decoding="async" src="images/slide/ivan-torres-MQUqbmszGGM-unsplash.jpg" class="img-fluid carousel-image" alt="">
                                         </div>
 
                                         <div class="carousel-caption">
@@ -194,7 +195,7 @@ https://www.tooplate.com/view/2129-crispy-kitchen
 
                 <div class="video-wrap">
                     <video autoplay="" loop="" muted="" class="custom-video" poster="">
-                        <source src="video/production_ID_3769033.mp4" type="video/mp4">
+                        <source src="video/production_ID_3769033_compressed.mp4" type="video/mp4">
                         	Your browser does not support the video tag.
                     	</video>
                 </div>
@@ -213,7 +214,7 @@ https://www.tooplate.com/view/2129-crispy-kitchen
                         <div class="col-lg-4 col-md-6 col-12">
                             <div class="menu-thumb">
                                 <div class="menu-image-wrap">
-                                    <img src="images/breakfast/brett-jordan-8xt8-HIFqc8-unsplash.jpg" class="img-fluid menu-image" alt="">
+                                    <img decoding="async" loading="lazy" src="images/breakfast/brett-jordan-8xt8-HIFqc8-unsplash.jpg" class="img-fluid menu-image" alt="">
 
                                     <span class="menu-tag bg-warning">Breakfast</span>
                                 </div>
@@ -243,7 +244,7 @@ https://www.tooplate.com/view/2129-crispy-kitchen
                         <div class="col-lg-4 col-md-6 col-12">
                             <div class="menu-thumb">
                                 <div class="menu-image-wrap">
-                                    <img src="images/lunch/farhad-ibrahimzade-MGKqxm6u2bc-unsplash.jpg" class="img-fluid menu-image" alt="">
+                                    <img decoding="async" loading="lazy" src="images/lunch/farhad-ibrahimzade-MGKqxm6u2bc-unsplash.jpg" class="img-fluid menu-image" alt="">
 
                                     <span class="menu-tag bg-warning">Lunch</span>
                                 </div>
@@ -273,7 +274,7 @@ https://www.tooplate.com/view/2129-crispy-kitchen
                         <div class="col-lg-4 col-md-6 col-12">
                             <div class="menu-thumb">
                                 <div class="menu-image-wrap">
-                                    <img src="images/dinner/keriliwi-c3mFafsFz2w-unsplash.jpg" class="img-fluid menu-image" alt="">
+                                    <img decoding="async" loading="lazy" src="images/dinner/keriliwi-c3mFafsFz2w-unsplash.jpg" class="img-fluid menu-image" alt="">
 
                                     <span class="menu-tag bg-warning">Dinner</span>
                                 </div>
@@ -305,7 +306,7 @@ https://www.tooplate.com/view/2129-crispy-kitchen
                         <div class="col-lg-4 col-md-6 col-12">
                             <div class="menu-thumb">
                                 <div class="menu-image-wrap">
-                                    <img src="images/dinner/farhad-ibrahimzade-ZipYER3NLhY-unsplash.jpg" class="img-fluid menu-image" alt="">
+                                    <img decoding="async" loading="lazy" src="images/dinner/farhad-ibrahimzade-ZipYER3NLhY-unsplash.jpg" class="img-fluid menu-image" alt="">
 
                                     <span class="menu-tag bg-warning">Dinner</span>
                                 </div>
@@ -337,7 +338,7 @@ https://www.tooplate.com/view/2129-crispy-kitchen
                         <div class="col-lg-4 col-md-6 col-12">
                             <div class="menu-thumb">
                                 <div class="menu-image-wrap">
-                                    <img src="images/breakfast/louis-hansel-dphM2U1xq0U-unsplash.jpg" class="img-fluid menu-image" alt="">
+                                    <img decoding="async" loading="lazy" src="images/breakfast/louis-hansel-dphM2U1xq0U-unsplash.jpg" class="img-fluid menu-image" alt="">
 
                                     <span class="menu-tag bg-warning">Breakfast</span>
                                 </div>
@@ -367,7 +368,7 @@ https://www.tooplate.com/view/2129-crispy-kitchen
                         <div class="col-lg-4 col-md-6 col-12">
                             <div class="menu-thumb">
                                 <div class="menu-image-wrap">
-                                    <img src="images/lunch/farhad-ibrahimzade-D5c9ZciQy_I-unsplash.jpg" class="img-fluid menu-image" alt="">
+                                    <img decoding="async" loading="lazy" src="images/lunch/farhad-ibrahimzade-D5c9ZciQy_I-unsplash.jpg" class="img-fluid menu-image" alt="">
 
                                     <span class="menu-tag bg-warning">Lunch</span>
                                 </div>
@@ -409,7 +410,7 @@ https://www.tooplate.com/view/2129-crispy-kitchen
                         <div class="col-lg-6 col-md-6 col-12">
                             <div class="news-thumb mb-4">
                                 <a href="news-detail.html">
-                                    <img src="images/news/pablo-merchan-montes-Orz90t6o0e4-unsplash.jpg" class="img-fluid news-image" alt="">
+                                    <img decoding="async" loading="lazy" src="images/news/pablo-merchan-montes-Orz90t6o0e4-unsplash.jpg" class="img-fluid news-image" alt="">
                                 </a>
 
                                 <div class="news-text-info news-text-info-large">
@@ -425,7 +426,7 @@ https://www.tooplate.com/view/2129-crispy-kitchen
                         <div class="col-lg-6 col-md-6 col-12">
                             <div class="news-thumb mb-4">
                                 <a href="news-detail.html">
-                                    <img src="images/news/stefan-johnson-xIFbDeGcy44-unsplash.jpg" class="img-fluid news-image" alt="">
+                                    <img decoding="async" decoding="async" loading="lazy" src="images/news/stefan-johnson-xIFbDeGcy44-unsplash.jpg" class="img-fluid news-image" alt="">
                                 </a>
 
                                 <div class="news-text-info news-text-info-large">
@@ -441,7 +442,7 @@ https://www.tooplate.com/view/2129-crispy-kitchen
                         <div class="col-lg-4 col-md-4 col-12">
                             <div class="news-thumb mb-lg-0 mb-lg-4 mb-0">
                                 <a href="news-detail.html">
-                                    <img src="images/news/gilles-lambert-S_LhjpfIdm4-unsplash.jpg" class="img-fluid news-image" alt="">
+                                    <img decoding="async" loading="lazy" src="images/news/gilles-lambert-S_LhjpfIdm4-unsplash.jpg" class="img-fluid news-image" alt="">
                                 </a>
 
                                 <div class="news-text-info">
@@ -459,7 +460,7 @@ https://www.tooplate.com/view/2129-crispy-kitchen
                         <div class="col-lg-4 col-md-4 col-12">
                             <div class="news-thumb mb-lg-0 mb-lg-4 mb-2">
                                 <a href="news-detail.html">
-                                    <img src="images/news/caroline-attwood-bpPTlXWTOvg-unsplash.jpg" class="img-fluid news-image" alt="">
+                                    <img decoding="async" loading="lazy" src="images/news/caroline-attwood-bpPTlXWTOvg-unsplash.jpg" class="img-fluid news-image" alt="">
                                 </a>
 
                                 <div class="news-text-info">
@@ -475,7 +476,7 @@ https://www.tooplate.com/view/2129-crispy-kitchen
                         <div class="col-lg-4 col-md-6 col-12">
                             <div class="news-thumb mb-4">
                                 <a href="news-detail.html">
-                                    <img src="images/news/louis-hansel-GiIiRV0FjwU-unsplash.jpg" class="img-fluid news-image" alt="">
+                                    <img decoding="async" loading="lazy" loading="lazy" src="images/news/louis-hansel-GiIiRV0FjwU-unsplash.jpg" class="img-fluid news-image" alt="">
                                 </a>
 
                                 <div class="news-text-info">
