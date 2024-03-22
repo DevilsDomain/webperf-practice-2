@@ -1,10 +1,13 @@
 if ('geolocation' in navigator) {
-    // Request permission
     navigator.geolocation.getCurrentPosition(
       position => {
         const { latitude, longitude } = position.coords;
         console.log('User location:', latitude, longitude);
-        // Display user's location
+
+        const deliveryMessage = document.createElement('p');
+        deliveryMessage.textContent = `We deliver to (${latitude}, ${longitude})`;
+        deliveryMessage.classList.add('delivery-message');
+        document.body.appendChild(deliveryMessage);
       },
       error => {
         switch (error.code) {
@@ -25,4 +28,3 @@ if ('geolocation' in navigator) {
   } else {
     console.error('Geolocation not supported');
   }
-  
