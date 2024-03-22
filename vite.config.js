@@ -2,6 +2,7 @@ import { defineConfig } from "vite";
 import cssnano from "cssnano";
 import imagemin from "vite-plugin-imagemin";
 import VitePluginWebpCompress from 'vite-plugin-webp-compress';
+import pluginPurgeCss from '@mojojoejo/vite-plugin-purgecss'
 
 export default defineConfig({
     root: ".",
@@ -22,5 +23,6 @@ export default defineConfig({
         imagemin({
         }), 
         VitePluginWebpCompress(),
+        pluginPurgeCss({})
     ],
 });

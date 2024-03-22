@@ -22,6 +22,7 @@
   },
   "homepage": "https://github.com/shershen08/webperf-practice-2#readme",
   "dependencies": {
+    "@mojojoejo/vite-plugin-purgecss": "^1.1.0",
     "cssnano": "^6.1.1",
     "terser": "^5.29.2",
     "vite": "^5.2.2",
