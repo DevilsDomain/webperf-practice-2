@@ -24,3 +24,4 @@
 - Reduced the size of the first slide's image
 - installed mkcert and configured with vite
 - registered service worker, the app is installable
+- Geolocation request from the app added.
