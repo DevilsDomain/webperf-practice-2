@@ -22,3 +22,4 @@
 - Added lazy loading to non-slide images
 - Added decoding async to all images
 - Reduced the size of the first slide's image
+- installed mkcert and configured with vite

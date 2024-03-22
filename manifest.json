@@ -1,0 +1,20 @@
+{
+    "name": "Crispy Kitchen",
+    "short_name": "Crispy",
+    "description": "Welcome to Crispy Kitchen - Your Favorite Restaurant",
+    "icons": [
+      {
+        "src": "images/food-restaurant-svgrepo-com.png",
+        "sizes": "192x192",
+        "type": "image/png"
+      }
+    ],
+    "start_url": "/",
+    "display": "standalone",
+    "theme_color": "#ff5722",
+    "background_color": "#ffffff",
+    "orientation": "any",
+    "scope": "/",
+    "lang": "en-US"
+  }
+  
