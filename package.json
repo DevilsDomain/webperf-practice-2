@@ -24,6 +24,7 @@
   "dependencies": {
     "@mojojoejo/vite-plugin-purgecss": "^1.1.0",
     "cssnano": "^6.1.1",
+    "express": "^4.19.1",
     "terser": "^5.29.2",
     "vite": "^5.2.2",
     "vite-bundle-visualizer": "^1.1.0",
