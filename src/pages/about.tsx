@@ -12,7 +12,7 @@ export default function About() {
                     <div className="row">
 
                         <div className="col-lg-10 col-12 mx-auto">
-                            <h1 className="text-white">Kitchen's Story</h1>
+                        <h1 className="text-white">Kitchen&apos;s Story</h1>
 
                             <strong className="text-white">this is how our kitchen evolved in new digital era</strong>
                         </div>
@@ -37,7 +37,7 @@ export default function About() {
 
                         <div className="col-lg-6 col-12">
                         
-                        	<p>Since this website template is 100% free to use, you can edit and apply it for your commercial restaurant websites. There are 6 HTML pages included in this template. Please <strong>click "Reservation" button</strong> on the top right to see the pop-up reservation form.</p>
+                        <p>Since this website template is 100% free to use, you can edit and apply it for your commercial restaurant websites. There are 6 HTML pages included in this template. Please <strong>click &quot;Reservation&quot; button</strong> on the top right to see the pop-up reservation form.</p>
                         
                             <p>You are NOT allowed to redistribute the template ZIP file on any template donwnload website. Please <a href="https://www.tooplate.com/contact" target="_blank">contact us</a> for more information.</p>
 

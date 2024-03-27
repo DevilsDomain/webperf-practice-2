@@ -28,15 +28,15 @@ function Navbar() {
                         </li>
 
                         <li className="nav-item">
-                            <a className="nav-link" href="/menu">Menu</a>
+                            <Link className="nav-link" href="/menu">Menu</Link>
                         </li>
 
                         <li className="nav-item">
-                            <a className="nav-link" href="/news">Our Updates</a>
+                            <Link className="nav-link" href="/news">Our Updates</Link>
                         </li>
 
                         <li className="nav-item">
-                            <a className="nav-link" href="/contact">Contact</a>
+                            <Link className="nav-link" href="/contact">Contact</Link>
                         </li>
                     </ul>
                 </div>

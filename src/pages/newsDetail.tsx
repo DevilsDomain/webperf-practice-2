@@ -1,6 +1,7 @@
 import React from 'react'
 import Image from 'next/image'
 import Navbar from '@/components/Navbar'
+import Link from 'next/link'
 
 function newsDetail() {
   return (
@@ -48,7 +49,7 @@ function newsDetail() {
                                     <iframe width="560" height="315" src="https://www.youtube.com/embed/6vebbDZxoKE?controls=0" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen ></iframe>
                                 </div>
 
-                                <p>Crispy Kitchen is free Bootstrap 5 HTML template provided by Tooplate. You are free to use this layout for commercial purposes. You are NOT allowed to redistribute the template ZIP file on any template donwnload website. Please <a href="https://www.tooplate.com/contact" target="_blank">contact us</a> for more information.</p>
+                                <p>Crispy Kitchen is free Bootstrap 5 HTML template provided by Tooplate. You are free to use this layout for commercial purposes. You are NOT allowed to redistribute the template ZIP file on any template donwnload website. Please <Link href="https://www.tooplate.com/contact" target="_blank">contact us</Link> for more information.</p>
 
                                 <h5 className="mt-4 mb-3">Pasta with Cream Sauce Recipe</h5>
 
@@ -88,7 +89,7 @@ function newsDetail() {
                                 <div className="ms-4 w-50">
                                     <p className="mb-2">Donec pharetra tellus nulla, aliquam elementum lorem hendrerit non.</p>
                                     
-                                    <a href="#">David Martin</a>
+                                    <Link href="#">David Martin</Link>
                                 </div>
 
                                 <span className="ms-auto">14 hours ago</span>
@@ -100,7 +101,7 @@ function newsDetail() {
                                 <div className="ms-4 w-50">
                                     <p className="mb-2">Quisque non libero ut mauris fermentum efficitur ac ut nibh.</p>
                                     
-                                    <a href="#">Jessica Noel</a>
+                                    <Link href="#">Jessica Noel</Link>
                                 </div>
 
                                 <span className="ms-auto">3 days ago</span>
@@ -119,9 +120,9 @@ function newsDetail() {
 
                         <div className="col-lg-4 col-md-6 col-12">
                             <div className="news-thumb mb-4">
-                                <a href="/newsDetail">
+                                <Link href="/newsDetail">
                                     <Image src="/images/news/gilles-lambert-S_LhjpfIdm4-unsplash.jpg" className="img-fluid news-image" alt=""  width={100} height={200} />
-                                </a>
+                                </Link>
                                 
                                 <div className="news-text-info">
                                     <span className="category-tag me-3 bg-info">Promotions</span>
@@ -129,7 +130,7 @@ function newsDetail() {
                                     <strong>12 April 2022</strong>
 
                                     <h5 className="news-title mt-2">
-                                        <a href="/newsDetail" className="news-title-link">Is Coconut good for your health?</a>
+                                        <Link href="/newsDetail" className="news-title-link">Is Coconut good for your health?</Link>
                                     </h5>
                                 </div>
                             </div> 
@@ -137,9 +138,9 @@ function newsDetail() {
 
                         <div className="col-lg-4 col-md-6 col-12">
                             <div className="news-thumb mb-4">
-                                <a href="/newsDetail">
+                                <Link href="/newsDetail">
                                     <Image src="/images/news/ella-olsson-mmnKI8kMxpc-unsplash.jpg" className="img-fluid news-image" alt=""  width={100} height={200} />
-                                </a>
+                                </Link>
                                 
                                 <div className="news-text-info">
                                     <span className="category-tag me-3 bg-info">Career</span>
@@ -147,7 +148,7 @@ function newsDetail() {
                                     <strong>18 April 2022</strong>
 
                                     <h5 className="news-title mt-2">
-                                        <a href="/newsDetail" className="news-title-link">How to run a sushi business?</a>
+                                        <Link href="/newsDetail" className="news-title-link">How to run a sushi business?</Link>
                                     </h5>
                                 </div>
                             </div> 
@@ -155,9 +156,9 @@ function newsDetail() {
 
                         <div className="col-lg-4 col-md-6 col-12">
                             <div className="news-thumb mb-4">
-                                <a href="/newsDetail">
+                                <Link href="/newsDetail">
                                     <Image src="/images/news/louis-hansel-GiIiRV0FjwU-unsplash.jpg" className="img-fluid news-image" alt=""  width={100} height={200} />
-                                </a>
+                                </Link>
                                 
                                 <div className="news-text-info">
                                     <span className="category-tag me-3 bg-info">Meeting</span>
@@ -165,7 +166,7 @@ function newsDetail() {
                                     <strong>30 April 2022</strong>
 
                                     <h5 className="news-title mt-2">
-                                        <a href="/newsDetail" className="news-title-link">Learning a fine dining experience</a>
+                                        <Link href="/newsDetail" className="news-title-link">Learning a fine dining experience</Link>
                                     </h5>
                                 </div>
                             </div> 
@@ -220,7 +221,7 @@ function newsDetail() {
 
                         <p>121 Einstein Loop N, Bronx, NY 10475, United States</p>
 
-                        <a href="https://goo.gl/maps/wZVGLA7q64uC1s886" className="custom-btn btn btn-dark mt-2">Directions</a>
+                        <Link href="https://goo.gl/maps/wZVGLA7q64uC1s886" className="custom-btn btn btn-dark mt-2">Directions</Link>
                     </div>
 
                     <div className="col-lg-4 col-md-5 col-xs-12 tooplate-mt30">
@@ -230,24 +231,24 @@ function newsDetail() {
 
                         <p>10:00 AM - 08:00 PM</p>
 
-                        <p>Tel: <a href="tel: 010-02-0340" className="tel-link">010-02-0340</a></p>
+                        <p>Tel: <Link href="tel: 010-02-0340" className="tel-link">010-02-0340</Link></p>
                     </div>
 
                     <div className="col-lg-4 col-md-6 col-xs-12 tooplate-mt30">
                         <h6 className="text-white mb-lg-4 mb-3">Social</h6>
 
                         <ul className="social-icon">
-                            <li><a href="#" className="social-icon-link bi-facebook"></a></li>
+                            <li><Link href="#" className="social-icon-link bi-facebook"></Link></li>
 
-                            <li><a href="#" className="social-icon-link bi-instagram"></a></li>
+                            <li><Link href="#" className="social-icon-link bi-instagram"></Link></li>
 
-                            <li><a href="#" className="social-icon-link bi-twitter"></a></li>
+                            <li><Link href="#" className="social-icon-link bi-twitter"></Link></li>
 
-                            <li><a href="#" className="social-icon-link bi-youtube"></a></li>
+                            <li><Link href="#" className="social-icon-link bi-youtube"></Link></li>
                         </ul>
                     
                         <p className="copyright-text tooplate-mt60">Copyright © 2022 Crispy Kitchen Co., Ltd.
-                        <br />Design: <a rel="nofollow" href="https://www.tooplate.com/" target="_blank">Tooplate</a></p>
+                        <br />Design: <Link rel="nofollow" href="https://www.tooplate.com/" target="_blank">Tooplate</Link></p>
                         
                     </div>
                     {/* <!-- row ending --> */}
