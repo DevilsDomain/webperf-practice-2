@@ -1,53 +1,12 @@
 import Image from "next/image";
 import styles from "./page.module.css";
 import Link from "next/link";
+import Navbar from "@/components/Navbar";
 
 export default function Home() {
   return (
     <main className={styles.main}>
-      <nav className="navbar navbar-expand-lg bg-white shadow-lg">
-            <div className="container">
-                <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                    <span className="navbar-toggler-icon"></span>
-                </button>
-
-                <Link className="navbar-brand" href={"/"} />
-                    Crispy Kitchen
-
-                <div className="d-lg-none">
-                    <button type="button" className="custom-btn btn btn-danger" data-bs-toggle="modal" data-bs-target="#BookingModal">Reservation</button>
-                </div>
-
-                <div className="collapse navbar-collapse" id="navbarNav">
-                    <ul className="navbar-nav mx-auto">
-                        <li className="nav-item">
-                            <Link className="nav-link active" href={"/"}>Home</Link>
-                        </li>
-
-                        <li className="nav-item">
-                            <Link className="nav-link" href={"/about"}>Story</Link>
-                        </li>
-
-                        <li className="nav-item">
-                            <a className="nav-link" href="/menu">Menu</a>
-                        </li>
-
-                        <li className="nav-item">
-                            <a className="nav-link" href="/news">Our Updates</a>
-                        </li>
-
-                        <li className="nav-item">
-                            <a className="nav-link" href="/contact">Contact</a>
-                        </li>
-                    </ul>
-                </div>
-
-                <div className="d-none d-lg-block">
-                    <button type="button" className="custom-btn btn btn-danger" data-bs-toggle="modal" data-bs-target="#BookingModal">Reservation</button>
-                </div>
-
-            </div>
-        </nav>
+      <Navbar></Navbar>
 
         <main>
 
@@ -83,7 +42,7 @@ export default function Home() {
                                 <div className="carousel-inner">
                                     <div className="carousel-item active">
                                         <div className="carousel-image-wrap">
-                                            <Image decoding="async" src="/images/slide/jay-wennington-N_Y88TWmGwA-unsplash_resized.jpg" width="100" height="100" className="img-fluid carousel-image" alt="" />
+                                            <Image decoding="async" src="/images/slide/jay-wennington-N_Y88TWmGwA-unsplash_resized.jpg" width={1920} height={1280} className="img-fluid carousel-image" alt="" />
                                         </div>
 
                                         <div className="carousel-caption">
@@ -98,7 +57,7 @@ export default function Home() {
 
                                     <div className="carousel-item">
                                         <div className="carousel-image-wrap">
-                                            <Image decoding="async" src="/images/slide/jason-leung-O67LZfeyYBk-unsplash.jpg" className="img-fluid carousel-image" alt="" width={100} height={200} />
+                                            <Image decoding="async" src="/images/slide/jason-leung-O67LZfeyYBk-unsplash.jpg" className="img-fluid carousel-image" alt="" width={1920} height={1280} />
                                         </div>
 
                                         <div className="carousel-caption">
@@ -124,7 +83,7 @@ export default function Home() {
 
                                     <div className="carousel-item">
                                         <div className="carousel-image-wrap">
-                                            <Image decoding="async" src="/images/slide/ivan-torres-MQUqbmszGGM-unsplash.jpg" className="img-fluid carousel-image" alt="" width={100} height={200} />
+                                            <Image decoding="async" src="/images/slide/ivan-torres-MQUqbmszGGM-unsplash.jpg" className="img-fluid carousel-image" alt="" width={1920} height={1280} />
                                         </div>
 
                                         <div className="carousel-caption">
@@ -166,7 +125,7 @@ export default function Home() {
 
                 <div className="video-wrap">
                     <video autoPlay loop muted className="custom-video" poster="">
-                        <source src="video/production_ID_3769033_compressed.mp4" type="video/mp4" />
+                        <source src="/video/production_ID_3769033_compressed.mp4" type="video/mp4" />
                         	Your browser does not support the video tag.
                     	</video>
                 </div>
@@ -185,7 +144,7 @@ export default function Home() {
                         <div className="col-lg-4 col-md-6 col-12">
                             <div className="menu-thumb">
                                 <div className="menu-image-wrap">
-                                    <Image decoding="async" loading="lazy" src="/images/breakfast/brett-jordan-8xt8-HIFqc8-unsplash.jpg" className="img-fluid menu-image" alt="" width={100} height={200} />
+                                    <Image decoding="async" loading="lazy" src="/images/breakfast/brett-jordan-8xt8-HIFqc8-unsplash.jpg" className="img-fluid menu-image" alt="" width={640} height={640} />
 
                                     <span className="menu-tag bg-warning">Breakfast</span>
                                 </div>
@@ -215,7 +174,7 @@ export default function Home() {
                         <div className="col-lg-4 col-md-6 col-12">
                             <div className="menu-thumb">
                                 <div className="menu-image-wrap">
-                                    <Image decoding="async" loading="lazy" src="/images/lunch/farhad-ibrahimzade-MGKqxm6u2bc-unsplash.jpg" className="img-fluid menu-image" alt="" width={100} height={200}/>
+                                    <Image decoding="async" loading="lazy" src="/images/lunch/farhad-ibrahimzade-MGKqxm6u2bc-unsplash.jpg" className="img-fluid menu-image" alt="" width={640} height={640}/>
 
                                     <span className="menu-tag bg-warning">Lunch</span>
                                 </div>
@@ -245,7 +204,7 @@ export default function Home() {
                         <div className="col-lg-4 col-md-6 col-12">
                             <div className="menu-thumb">
                                 <div className="menu-image-wrap">
-                                    <Image decoding="async" loading="lazy" src="/images/dinner/keriliwi-c3mFafsFz2w-unsplash.jpg" className="img-fluid menu-image" alt="" width={100} height={200} />
+                                    <Image decoding="async" loading="lazy" src="/images/dinner/keriliwi-c3mFafsFz2w-unsplash.jpg" className="img-fluid menu-image" alt="" width={640} height={640} />
 
                                     <span className="menu-tag bg-warning">Dinner</span>
                                 </div>
@@ -277,7 +236,7 @@ export default function Home() {
                         <div className="col-lg-4 col-md-6 col-12">
                             <div className="menu-thumb">
                                 <div className="menu-image-wrap">
-                                    <Image decoding="async" loading="lazy" src="/images/dinner/farhad-ibrahimzade-ZipYER3NLhY-unsplash.jpg" className="img-fluid menu-image" alt="" width={100} height={200} />
+                                    <Image decoding="async" loading="lazy" src="/images/dinner/farhad-ibrahimzade-ZipYER3NLhY-unsplash.jpg" className="img-fluid menu-image" alt="" width={640} height={640} />
 
                                     <span className="menu-tag bg-warning">Dinner</span>
                                 </div>
@@ -309,7 +268,7 @@ export default function Home() {
                         <div className="col-lg-4 col-md-6 col-12">
                             <div className="menu-thumb">
                                 <div className="menu-image-wrap">
-                                    <Image decoding="async" loading="lazy" src="/images/breakfast/louis-hansel-dphM2U1xq0U-unsplash.jpg" className="img-fluid menu-image" alt="" width={100} height={200} />
+                                    <Image decoding="async" loading="lazy" src="/images/breakfast/louis-hansel-dphM2U1xq0U-unsplash.jpg" className="img-fluid menu-image" alt="" width={640} height={640} />
 
                                     <span className="menu-tag bg-warning">Breakfast</span>
                                 </div>
@@ -339,7 +298,7 @@ export default function Home() {
                         <div className="col-lg-4 col-md-6 col-12">
                             <div className="menu-thumb">
                                 <div className="menu-image-wrap">
-                                    <Image decoding="async" loading="lazy" src="/images/lunch/farhad-ibrahimzade-D5c9ZciQy_I-unsplash.jpg" className="img-fluid menu-image" alt="" width={100} height={200} />
+                                    <Image decoding="async" loading="lazy" src="/images/lunch/farhad-ibrahimzade-D5c9ZciQy_I-unsplash.jpg" className="img-fluid menu-image" alt="" width={640} height={640} />
 
                                     <span className="menu-tag bg-warning">Lunch</span>
                                 </div>
@@ -381,7 +340,7 @@ export default function Home() {
                         <div className="col-lg-6 col-md-6 col-12">
                             <div className="news-thumb mb-4">
                                 <a href="news-detail.html">
-                                    <Image decoding="async" loading="lazy" src="/images/news/pablo-merchan-montes-Orz90t6o0e4-unsplash.jpg" className="img-fluid news-image" alt="" width={100} height={200} />
+                                    <Image decoding="async" loading="lazy" src="/images/news/pablo-merchan-montes-Orz90t6o0e4-unsplash.jpg" className="img-fluid news-image" alt="" width={640} height={427} />
                                 </a>
 
                                 <div className="news-text-info news-text-info-large">
@@ -397,7 +356,7 @@ export default function Home() {
                         <div className="col-lg-6 col-md-6 col-12">
                             <div className="news-thumb mb-4">
                                 <a href="news-detail.html">
-                                    <Image decoding="async" loading="lazy" src="/images/news/stefan-johnson-xIFbDeGcy44-unsplash.jpg" className="img-fluid news-image" alt="" width={100} height={200} />
+                                    <Image decoding="async" loading="lazy" src="/images/news/stefan-johnson-xIFbDeGcy44-unsplash.jpg" className="img-fluid news-image" alt="" width={640} height={427} />
                                 </a>
 
                                 <div className="news-text-info news-text-info-large">
@@ -413,7 +372,7 @@ export default function Home() {
                         <div className="col-lg-4 col-md-4 col-12">
                             <div className="news-thumb mb-lg-0 mb-lg-4 mb-0">
                                 <a href="news-detail.html">
-                                    <Image decoding="async" loading="lazy" src="/images/news/gilles-lambert-S_LhjpfIdm4-unsplash.jpg" className="img-fluid news-image" alt="" width={100} height={200} />
+                                    <Image decoding="async" loading="lazy" src="/images/news/gilles-lambert-S_LhjpfIdm4-unsplash.jpg" className="img-fluid news-image" alt="" width={640} height={427} />
                                 </a>
 
                                 <div className="news-text-info">
@@ -431,7 +390,7 @@ export default function Home() {
                         <div className="col-lg-4 col-md-4 col-12">
                             <div className="news-thumb mb-lg-0 mb-lg-4 mb-2">
                                 <a href="news-detail.html">
-                                    <Image decoding="async" loading="lazy" src="/images/news/caroline-attwood-bpPTlXWTOvg-unsplash.jpg" className="img-fluid news-image" alt="" width={100} height={200} />
+                                    <Image decoding="async" loading="lazy" src="/images/news/caroline-attwood-bpPTlXWTOvg-unsplash.jpg" className="img-fluid news-image" alt="" width={640} height={427} />
                                 </a>
 
                                 <div className="news-text-info">
@@ -447,7 +406,7 @@ export default function Home() {
                         <div className="col-lg-4 col-md-6 col-12">
                             <div className="news-thumb mb-4">
                                 <a href="news-detail.html">
-                                    <Image decoding="async" loading="lazy" src="/images/news/louis-hansel-GiIiRV0FjwU-unsplash.jpg" className="img-fluid news-image" alt="" width={100} height={200} />
+                                    <Image decoding="async" loading="lazy" src="/images/news/louis-hansel-GiIiRV0FjwU-unsplash.jpg" className="img-fluid news-image" alt="" width={640} height={427} />
                                 </a>
 
                                 <div className="news-text-info">

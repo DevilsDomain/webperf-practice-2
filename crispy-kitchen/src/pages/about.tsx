@@ -1,54 +1,12 @@
 import Image from "next/image";
 import styles from "./page.module.css";
+import Link from "next/link";
+import Navbar from "@/components/Navbar";
 
 export default function About() {
   return (
     <main className={styles.main}>
-      <nav className="navbar navbar-expand-lg bg-white shadow-lg">
-            <div className="container">
-                <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                    <span className="navbar-toggler-icon"></span>
-                </button>
-                
-                <a className="navbar-brand" href="index.html">
-                    Crispy Kitchen
-                </a>
-
-                <div className="d-lg-none">
-                    <button type="button" className="custom-btn btn btn-danger" data-bs-toggle="modal" data-bs-target="#BookingModal">Reservation</button>
-                </div>
-
-                <div className="collapse navbar-collapse" id="navbarNav">
-                    <ul className="navbar-nav mx-auto">
-                        <li className="nav-item">
-                            <a className="nav-link" href="index.html">Home</a>
-                        </li>
-
-                        <li className="nav-item">
-                            <a className="nav-link active" href="about.html">Story</a>
-                        </li>
-
-                        <li className="nav-item">
-                            <a className="nav-link" href="menu.html">Menu</a>
-                        </li>
-
-                        <li className="nav-item">
-                            <a className="nav-link" href="news.html">Our Updates</a>
-                        </li>
-
-                        <li className="nav-item">
-                            <a className="nav-link" href="contact.html">Contact</a>
-                        </li>
-                    </ul>
-                </div>
-
-                <div className="d-none d-lg-block">
-                    <button type="button" className="custom-btn btn btn-danger" data-bs-toggle="modal" data-bs-target="#BookingModal">Reservation</button>
-                </div>
-
-            </div>
-        </nav>
-
+        <Navbar></Navbar>
         <main>
 
             <header className="site-header site-about-header">
@@ -101,7 +59,7 @@ export default function About() {
 
                         <div className="col-lg-4 col-12">
                             <div className="team-thumb">
-                                <Image src="images/team/matthew-hamilton-tNCH0sKSZbA-unsplash.jpg" className="img-fluid team-image" alt="" width={100} height={200} />
+                                <Image src="/images/team/matthew-hamilton-tNCH0sKSZbA-unsplash.jpg" className="img-fluid team-image" alt="" width={100} height={200} />
                                 
                                 <div className="team-info">
                                     <h4 className="mt-3 mb-0">Sophia</h4>
@@ -113,7 +71,7 @@ export default function About() {
 
                         <div className="col-lg-4 col-12 my-lg-0 my-4">
                             <div className="team-thumb">
-                                <Image src="images/team/nicolas-horn-MTZTGvDsHFY-unsplash.jpg" className="img-fluid team-image" alt="" width={100} height={200} />
+                                <Image src="/images/team/nicolas-horn-MTZTGvDsHFY-unsplash.jpg" className="img-fluid team-image" alt="" width={100} height={200} />
 
                                 <h4 className="mt-3 mb-0">Benjamin W.</h4>
 
@@ -123,7 +81,7 @@ export default function About() {
 
                         <div className="col-lg-4 col-12">
                             <div className="team-thumb">
-                                <Image src="images/team/rc-cf-FMh5o5m5N9E-unsplash.jpg" className="img-fluid team-image" alt="" width={100} height={200} />
+                                <Image src="/images/team/rc-cf-FMh5o5m5N9E-unsplash.jpg" className="img-fluid team-image" alt="" width={100} height={200} />
                                 
                                 <h4 className="mt-3 mb-0">Muchen Jack</h4>
 
@@ -140,7 +98,7 @@ export default function About() {
                     <div className="row">
 
                         <div className="col-lg-6 col-12">
-                            <Image src="images/charles-deluvio-FdDkfYFHqe4-unsplash.jpg" className="img-fluid newsletter-image" alt="" width={100} height={200} />
+                            <Image src="/images/charles-deluvio-FdDkfYFHqe4-unsplash.jpg" className="img-fluid newsletter-image" alt="" width={100} height={200} />
                         </div>
 
                         <div className="col-lg-6 col-12 d-flex align-items-center mt-5 mt-lg-0 mx-auto">
