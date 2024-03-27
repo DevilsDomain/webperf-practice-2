@@ -1,6 +1,5 @@
 import Image from "next/image";
 import styles from "./page.module.css";
-import Link from "next/link";
 import Navbar from "@/components/Navbar";
 
 export default function About() {
@@ -250,11 +249,6 @@ export default function About() {
                 
             </div>
         </div>
-
-        {/* <!-- JAVASCRIPT FILES --> */}
-        <script src="js/jquery.min.js"></script>
-        <script src="js/bootstrap.bundle.min.js"></script>
-        <script src="js/custom.js"></script>
     </main>
   );
 }
