@@ -35,7 +35,7 @@ function menu() {
 
                         <div className="col-lg-4 col-md-6 col-12">
                             <div className="menu-thumb">
-                                <Image src="/images/breakfast/brett-jordan-8xt8-HIFqc8-unsplash.jpg" className="img-fluid menu-image" alt="" width={100} height={200} />
+                                <Image src="/images/breakfast/brett-jordan-8xt8-HIFqc8-unsplash.jpg" className="img-fluid menu-image" alt="" width={640} height={640} />
 
                                 <div className="menu-info d-flex flex-wrap align-items-center">
                                     <h4 className="mb-0">Fresh Start</h4>
@@ -61,7 +61,7 @@ function menu() {
 
                         <div className="col-lg-4 col-md-6 col-12">
                             <div className="menu-thumb">
-                                <Image src="/images/breakfast/lucas-swennen-1W_MyJSRLuQ-unsplash.jpg" className="img-fluid menu-image" alt="" width={100} height={200} />
+                                <Image src="/images/breakfast/lucas-swennen-1W_MyJSRLuQ-unsplash.jpg" className="img-fluid menu-image" alt="" width={640} height={640} />
 
                                 <div className="menu-info d-flex flex-wrap align-items-center">
                                     <h4 className="mb-0">Baked Creamy</h4>
@@ -87,7 +87,7 @@ function menu() {
 
                         <div className="col-lg-4 col-md-6 col-12">
                             <div className="menu-thumb">
-                                <Image src="/images/breakfast/louis-hansel-dphM2U1xq0U-unsplash.jpg" className="img-fluid menu-image" alt="" width={100} height={200 }/>
+                                <Image src="/images/breakfast/louis-hansel-dphM2U1xq0U-unsplash.jpg" className="img-fluid menu-image" alt="" width={640} height={640}/>
 
                                 <div className="menu-info d-flex flex-wrap align-items-center">
                                     <h4 className="mb-0">Burger Set</h4>
@@ -127,7 +127,7 @@ function menu() {
 
                         <div className="col-lg-6 col-12">
                             <div className="menu-thumb">
-                                <Image src="/images/lunch/louis-hansel-cH5IPjaAYyo-unsplash.jpg" className="img-fluid menu-image" alt="" width={100} height={200} />
+                                <Image src="/images/lunch/louis-hansel-cH5IPjaAYyo-unsplash.jpg" className="img-fluid menu-image" alt="" width={640} height={640} />
 
                                 <div className="menu-info d-flex flex-wrap align-items-center">
                                     <h4 className="mb-0">Super Steak Set</h4>
@@ -155,7 +155,7 @@ function menu() {
 
                         <div className="col-lg-6 col-12">
                             <div className="menu-thumb">
-                                <Image src="/images/lunch/louis-hansel-rheOvfxOlOA-unsplash.jpg" className="img-fluid menu-image" alt="" width={100} height={200} />
+                                <Image src="/images/lunch/louis-hansel-rheOvfxOlOA-unsplash.jpg" className="img-fluid menu-image" alt="" width={640} height={640}/>
 
                                 <div className="menu-info d-flex flex-wrap align-items-center">
                                     <h4 className="mb-0">Bread &amp; Steak Set</h4>
@@ -193,7 +193,7 @@ function menu() {
 
                         <div className="col-lg-4 col-md-6 col-12">
                             <div className="menu-thumb">
-                                <Image src="/images/dinner/farhad-ibrahimzade-ZipYER3NLhY-unsplash.jpg" className="img-fluid menu-image" alt="" width={100} height={200} />
+                                <Image src="/images/dinner/farhad-ibrahimzade-ZipYER3NLhY-unsplash.jpg" className="img-fluid menu-image" alt="" width={640} height={640} />
 
                                 <div className="menu-info d-flex flex-wrap align-items-center">
                                     <h4 className="mb-0">Seafood Set</h4>
@@ -219,7 +219,7 @@ function menu() {
 
                         <div className="col-lg-4 col-md-6 col-12">
                             <div className="menu-thumb">
-                                <Image src="/images/dinner/keriliwi-c3mFafsFz2w-unsplash.jpg" className="img-fluid menu-image" alt="" width={100} height={200} />
+                                <Image src="/images/dinner/keriliwi-c3mFafsFz2w-unsplash.jpg" className="img-fluid menu-image" alt="" width={640} height={640} />
 
                                 <div className="menu-info d-flex flex-wrap align-items-center">
                                     <h4 className="mb-0">Premium Steak</h4>
@@ -245,7 +245,7 @@ function menu() {
 
                         <div className="col-lg-4 col-md-6 col-12">
                             <div className="menu-thumb">
-                                <Image src="/images/dinner/farhad-ibrahimzade-isHUj3N0194-unsplash.jpg" className="img-fluid menu-image" alt="" width={100} height={200} />
+                                <Image src="/images/dinner/farhad-ibrahimzade-isHUj3N0194-unsplash.jpg" className="img-fluid menu-image" alt="" width={640} height={640} />
 
                                 <div className="menu-info d-flex flex-wrap align-items-center">
                                     <h4 className="mb-0">Salmon Set</h4>
