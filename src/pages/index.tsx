@@ -1,8 +1,11 @@
 import Image from "next/image";
 import Navbar from "@/components/Navbar";
+import {NextUIProvider} from "@nextui-org/react";
+
 
 export default function Home() {
   return (
+    <NextUIProvider>
     <main>
       <Navbar></Navbar>
 
@@ -554,5 +557,6 @@ export default function Home() {
             </div>
         </div>
     </main>
+    </NextUIProvider>
   );
 }
