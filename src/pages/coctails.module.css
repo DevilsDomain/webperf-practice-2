@@ -1,7 +1,25 @@
-.cocktailsContainer {
+.pageContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center align horizontally */
+  }
+  
+  .inputField {
+    width: 300px; /* Adjust the width as needed */
+    height: 40px; /* Adjust the height as needed */
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+    outline: none;
+    margin: 20px auto; /* Center align the input field */
+  }
+  
+  .cocktailsContainer {
     display: flex;
     flex-wrap: wrap;
     gap: 20px;
+    justify-content: center; /* Center align horizontally */
   }
   
   .cocktailCard {

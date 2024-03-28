@@ -29,13 +29,14 @@ function Cocktails() {
       };
   
   return (
-    <div>
+    <div className={styles.pageContainer}>
         <form onSubmit={handleSearchSubmit}>
-            <input
-                type="text"
-                onKeyDown={handleKeyDown}
-                placeholder="Search for a cocktail and press Enter..."
-            />
+        <input
+        type="text"
+        onKeyDown={handleKeyDown}
+        placeholder="Search..."
+        className={styles.inputField}
+        />
         </form>
       <div className={styles.cocktailsContainer}>
         {data.drinks.map((drink, index) => (
