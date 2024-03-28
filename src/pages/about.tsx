@@ -220,8 +220,8 @@ export default function About() {
                                 <div className="col-lg-6 col-12">
                                     <label htmlFor="time" className="form-label">Time</label>
 
-                                    <select className="form-select form-control" name="time" id="time">
-                                      <option value="5" selected>5:00 PM</option>
+                                    <select className="form-select form-control" name="time" id="time" defaultValue="5">
+                                      <option value="5">5:00 PM</option>
                                       <option value="6">6:00 PM</option>
                                       <option value="7">7:00 PM</option>
                                       <option value="8">8:00 PM</option>
