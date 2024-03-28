@@ -4,3 +4,4 @@
 - Creted Navbar component
 - added og css styles globally.
 - deployed on vercel webperf-practice-2-zeta.vercel.app
+- added cocktails page in navbar
