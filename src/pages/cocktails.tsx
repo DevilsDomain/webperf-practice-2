@@ -16,15 +16,17 @@ function Cocktails() {
     if (isLoading) {
         return (
              <div className={styles.cocktailsContainer}>
+                <Skeleton>
                 {randomArray.map((drink, index) => (
                     <div key={index} className={styles.cocktailCard}>
-                        <Image src={drink.strDrinkThumb} alt={drink.strDrink} className={styles.cocktailImage} width={100} height={200} />
+                        <Image  className={styles.cocktailImage} width={100} height={200} />
                         <div className={styles.cocktailInfo}>
-                            <h3 className={styles.cocktailName}>{drink.strDrink}</h3>
-                            <p className={styles.cocktailIngredients}>{drink.strIngredient1}, {drink.strIngredient2}, {drink.strIngredient3}</p>
+                            <h3 className={styles.cocktailName}></h3>
+                            <p className={styles.cocktailIngredients}></p>
                         </div>
                     </div>
                 ))}
+                </Skeleton>
             </div>
         );
     }
